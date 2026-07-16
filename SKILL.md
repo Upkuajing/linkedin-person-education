@@ -1,7 +1,7 @@
 ---
 name: linkedin-person-education
-description: Official skill for upkuajing (跨境魔方). Query education history list (教育经历列表) from LinkedIn data. Get person education background including schools, degrees, majors, and GPAs, with cursor-based pagination.
-metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📚","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Check LinkedIn‑sourced education history via personnel ID. Confirm degrees, majors and GPA data for background checks and candidate evaluation. \n\nTrigger:LinkedIn education background check, applicant qualification assessment, personnel academic record lookup, pre‑employment screening, hiring background verification"
+metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📚","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # LinkedIn Person Education Query
@@ -148,5 +148,7 @@ Other UpKuaJing skills you might find useful:
 - global-company-person-search — Search people from the global company database
 - upkuajing-global-company-people-search — Unified company and people search across all sources
 - upkuajing-contact-info-validity-check — Check contact info validity
-- upkuajing-email-tool — Email verification and sending tool
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security- upkuajing-email-tool — Email verification and sending tool
 - upkuajing-sms-tool — SMS tool
